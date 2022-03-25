@@ -1,0 +1,12 @@
+.characters-list-contianer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.loading{
+    font-family: "roboto";
+}

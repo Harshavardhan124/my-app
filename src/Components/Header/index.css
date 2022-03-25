@@ -1,0 +1,27 @@
+.nav-header{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'roboto';
+    color: #000000;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 575px) {
+    .title{
+        font-size: 34px;
+    }
+}
